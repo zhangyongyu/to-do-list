@@ -1,0 +1,7 @@
+__pycache__/
+.idea/
+
+
+todo.conf
+
+deploy.sh

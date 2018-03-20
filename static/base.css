@@ -1,0 +1,32 @@
+.main
+{
+    max-width: 250px;
+    margin: auto;
+    padding: 40px 15px;
+}
+
+.todo-edit,.todo-delete
+{
+    float:right;
+    margin: 0 1px;
+
+
+}
+
+.button-small
+{
+    font-size: 80%;
+}
+
+.todo-cell
+{
+    margin: 35px 0;
+}
+
+
+.line
+{
+    line-height: 1px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}

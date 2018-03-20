@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" >
+	<link rel="stylesheet" href="../static?file=base.css" >
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="main">
+		<h1>待办事项</h1>
+		<h4 style="color: #777777;">
+		{% if user != None %}
+		欢迎你，{{ user.username }}
+		{% else %}
+		欢迎你，游客
+		{% endif %}
+		</h4>
+
+		<div class="pure-menu">
+			<a href="/login" class="pure-menu-link pure-menu-item"><h2>登录</h2></a>
+			<a href="/register" class="pure-menu-link pure-menu-item"><h2>注册</h2></a>
+			<a href="/todo" class="pure-menu-link pure-menu-item"><h2>直接进入</h2></a>
+		</div>
+
+	</div>
+</body>
+</html>
