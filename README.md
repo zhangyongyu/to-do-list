@@ -5,7 +5,7 @@
 - 具有注册、登录功能
 
 ### 注册和登录
-![](/static/register_login.gif)
+![](/static/register-login.gif)
 
 ### 新增、编辑和删除
-![](/static/add_update_delete.gif)
+![](/static/add-update-delete.gif)
