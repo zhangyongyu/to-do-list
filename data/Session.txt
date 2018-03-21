@@ -1,0 +1,7 @@
+[
+  {
+    "id": 0,
+    "session_id": "2dk0kIal0a2ladll",
+    "user_id": 0
+  }
+]
