@@ -6984,3 +6984,482 @@ Cookie: sid=2dk0kIal0a2ladll
 
 14:54:02 request log:
 
+15:04:51 ip ('127.0.0.1', 54398)
+15:04:51 request log:
+GET / HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: sid=2dk0kIal0a2ladll
+
+
+15:04:51 Request: path 和 query / {}
+15:04:51 cookie ['sid=2dk0kIal0a2ladll']
+15:04:51 ip ('127.0.0.1', 54399)
+15:04:51 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'DNT': '1', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Cookie': 'sid=2dk0kIal0a2ladll'} {'sid': '2dk0kIal0a2ladll'}
+15:04:51 ip ('127.0.0.1', 54400)
+15:04:51 load [
+  {
+    "id": 0,
+    "session_id": "2dk0kIal0a2ladll",
+    "user_id": 0
+  }
+]
+15:04:51 kwargs,  {'id': 0} <class 'dict'>
+15:04:51 load [
+  {
+    "id": 0,
+    "username": "ayu",
+    "password": "9cb3f9449963dbad83e8c061f5ad9c24c8891b5ef13dc96efde50633af232c5c"
+  }
+]
+15:04:51 current user < User
+id: (0)
+username: (ayu)
+password: (9cb3f9449963dbad83e8c061f5ad9c24c8891b5ef13dc96efde50633af232c5c) 
+>
+
+15:04:51 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" >
+	<link rel="stylesheet" href="../static?file=base.css" >
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="main">
+		<h1>待办事项</h1>
+		<h4 style="color: #777777;">
+		
+		欢迎你，ayu
+		
+		</h4>
+
+		<div class="pure-menu">
+			<a href="/login" class="pure-menu-link pure-menu-item"><h2>登录</i></h2></a>
+			<a href="/register" class="pure-menu-link pure-menu-item"><h2>注册</h2></a>
+			<a href="/todo" class="pure-menu-link pure-menu-item"><h2>直接进入</h2></a>
+		</div>
+
+	</div>
+</body>
+</html>
+15:04:51 request log:
+GET /static?file=base.css HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/css,*/*;q=0.1
+DNT: 1
+Referer: http://0.0.0.0:2048/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: sid=2dk0kIal0a2ladll
+
+
+15:04:51 Request: path 和 query /static {'file': 'base.css'}
+15:04:51 cookie ['sid=2dk0kIal0a2ladll']
+15:04:51 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/css,*/*;q=0.1', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Cookie': 'sid=2dk0kIal0a2ladll'} {'sid': '2dk0kIal0a2ladll'}
+15:04:51 response for static size: 325
+15:05:03 request log:
+
+15:06:07 ip ('127.0.0.1', 54434)
+15:06:07 ip ('127.0.0.1', 54435)
+15:06:07 ip ('127.0.0.1', 54436)
+15:06:08 request log:
+GET /static?file=base.css HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/css,*/*;q=0.1
+DNT: 1
+Referer: http://0.0.0.0:2048/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: sid=2dk0kIal0a2ladll
+
+
+15:06:08 Request: path 和 query /static {'file': 'base.css'}
+15:06:08 cookie ['sid=2dk0kIal0a2ladll']
+15:06:08 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/css,*/*;q=0.1', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Cookie': 'sid=2dk0kIal0a2ladll'} {'sid': '2dk0kIal0a2ladll'}
+15:06:08 response for static size: 325
+15:06:09 request log:
+GET /favicon.ico HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+DNT: 1
+Referer: http://0.0.0.0:2048/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: sid=2dk0kIal0a2ladll
+
+
+15:06:09 Request: path 和 query /favicon.ico {}
+15:06:09 cookie ['sid=2dk0kIal0a2ladll']
+15:06:09 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Cookie': 'sid=2dk0kIal0a2ladll'} {'sid': '2dk0kIal0a2ladll'}
+15:06:09 response log:
+HTTP/1.x 404 NOT FOUND
+
+<h1>NOT FOUND</h1>
+15:06:18 request log:
+
+15:08:19 ip ('127.0.0.1', 54569)
+15:08:19 ip ('127.0.0.1', 54570)
+15:08:19 request log:
+GET / HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: sid=2dk0kIal0a2ladll
+
+
+15:08:19 ip ('127.0.0.1', 54571)
+15:08:19 Request: path 和 query / {}
+15:08:19 cookie ['sid=2dk0kIal0a2ladll']
+15:08:19 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'DNT': '1', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Cookie': 'sid=2dk0kIal0a2ladll'} {'sid': '2dk0kIal0a2ladll'}
+15:08:19 load [
+  {
+    "id": 0,
+    "session_id": "2dk0kIal0a2ladll",
+    "user_id": 0
+  }
+]
+15:08:19 kwargs,  {'id': 0} <class 'dict'>
+15:08:19 load [
+  {
+    "id": 0,
+    "username": "ayu",
+    "password": "9cb3f9449963dbad83e8c061f5ad9c24c8891b5ef13dc96efde50633af232c5c"
+  }
+]
+15:08:19 current user < User
+id: (0)
+username: (ayu)
+password: (9cb3f9449963dbad83e8c061f5ad9c24c8891b5ef13dc96efde50633af232c5c) 
+>
+
+15:08:19 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" >
+	<link rel="stylesheet" href="../static?file=base.css" >
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="main">
+		<h1>待办事项</h1>
+		<h4 style="color: #777777;">
+		
+		欢迎你，ayu
+		
+		</h4>
+
+		<div class="pure-menu">
+			<a href="/login" class="pure-menu-link pure-menu-item"><h2>登录</i></h2></a>
+			<a href="/register" class="pure-menu-link pure-menu-item"><h2>注册</h2></a>
+			<a href="/todo" class="pure-menu-link pure-menu-item"><h2>直接进入</h2></a>
+		</div>
+
+	</div>
+</body>
+</html>
+15:08:20 request log:
+GET /static?file=base.css HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/css,*/*;q=0.1
+DNT: 1
+Referer: http://0.0.0.0:2048/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: sid=2dk0kIal0a2ladll
+
+
+15:08:20 Request: path 和 query /static {'file': 'base.css'}
+15:08:20 cookie ['sid=2dk0kIal0a2ladll']
+15:08:20 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/css,*/*;q=0.1', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Cookie': 'sid=2dk0kIal0a2ladll'} {'sid': '2dk0kIal0a2ladll'}
+15:08:20 response for static size: 325
+15:08:39 request log:
+
+15:08:56 ip ('127.0.0.1', 54591)
+15:08:56 request log:
+GET /static?file=base.css HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/css,*/*;q=0.1
+DNT: 1
+Referer: http://0.0.0.0:2048/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: sid=2dk0kIal0a2ladll
+
+
+15:08:56 Request: path 和 query /static {'file': 'base.css'}
+15:08:56 cookie ['sid=2dk0kIal0a2ladll']
+15:08:56 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/css,*/*;q=0.1', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Cookie': 'sid=2dk0kIal0a2ladll'} {'sid': '2dk0kIal0a2ladll'}
+15:08:56 response for static size: 325
+15:08:59 ip ('127.0.0.1', 54600)
+15:08:59 ip ('127.0.0.1', 54601)
+15:08:59 ip ('127.0.0.1', 54602)
+15:08:59 request log:
+GET / HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+15:08:59 Request: path 和 query / {}
+15:08:59 cookie ['']
+15:08:59 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'Cache-Control': 'max-age=0', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'DNT': '1', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'} {}
+15:08:59 load [
+  {
+    "id": 0,
+    "session_id": "2dk0kIal0a2ladll",
+    "user_id": 0
+  }
+]
+15:08:59 current user None
+15:08:59 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" >
+	<link rel="stylesheet" href="../static?file=base.css" >
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="main">
+		<h1>待办事项</h1>
+		<h4 style="color: #777777;">
+		
+		欢迎你，游客
+		
+		</h4>
+
+		<div class="pure-menu">
+			<a href="/login" class="pure-menu-link pure-menu-item"><h2>登录</i></h2></a>
+			<a href="/register" class="pure-menu-link pure-menu-item"><h2>注册</h2></a>
+			<a href="/todo" class="pure-menu-link pure-menu-item"><h2>直接进入</h2></a>
+		</div>
+
+	</div>
+</body>
+</html>
+15:08:59 request log:
+GET /static?file=base.css HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/css,*/*;q=0.1
+DNT: 1
+Referer: http://0.0.0.0:2048/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+15:08:59 Request: path 和 query /static {'file': 'base.css'}
+15:08:59 cookie ['']
+15:08:59 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/css,*/*;q=0.1', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'} {}
+15:08:59 response for static size: 325
+15:09:10 request log:
+
+15:09:10 ip ('127.0.0.1', 54611)
+15:09:10 request log:
+GET /todo HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+DNT: 1
+Referer: http://0.0.0.0:2048/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+15:09:10 Request: path 和 query /todo {}
+15:09:10 cookie ['']
+15:09:10 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'} {}
+15:09:10 load [
+  {
+    "id": 0,
+    "session_id": "2dk0kIal0a2ladll",
+    "user_id": 0
+  }
+]
+15:09:10 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ajax_todo</title>
+        <link rel="stylesheet" href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" >
+        <link rel="stylesheet" href='../static?file=base.css'>
+		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+		<div class="main" style="max-width: 600px;">
+			<div class='pure-form' style="vertical-align: middle;">
+				<h1>待办事项</h1>
+				<input id='id-input-todo' placeholder="请输入代办事项" style="display:inline;">
+				<button id='id-button-add' class="pure-button pure-button-primary" style="display:inline;margin-left: -4px">添加</button>
+			</div>
+
+
+			<div class="todo-list" >
+			</div>
+		</div>
+        <!-- base.js 放了基本函数 -->
+        <!-- 按顺序引入 2 个 js 文件, 后面的 js 文件才可以使用前面的文件中的函数 -->
+        <script src='../static?file=base.js'></script>
+        <script src='../static?file=todo.js'></script>
+
+    </body>
+</html>
+15:09:10 ip ('127.0.0.1', 54612)
+15:09:10 request log:
+GET /static?file=base.css HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: text/css,*/*;q=0.1
+DNT: 1
+Referer: http://0.0.0.0:2048/todo
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+15:09:10 Request: path 和 query /static {'file': 'base.css'}
+15:09:10 cookie ['']
+15:09:10 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': 'text/css,*/*;q=0.1', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/todo', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'} {}
+15:09:10 ip ('127.0.0.1', 54613)
+15:09:10 ip ('127.0.0.1', 54614)
+15:09:10 request log:
+GET /static?file=base.js HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: */*
+DNT: 1
+Referer: http://0.0.0.0:2048/todo
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+15:09:10 Request: path 和 query /static {'file': 'base.js'}
+15:09:10 cookie ['']
+15:09:10 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': '*/*', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/todo', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'} {}
+15:09:10 request log:
+GET /static?file=todo.js HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Accept: */*
+DNT: 1
+Referer: http://0.0.0.0:2048/todo
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+15:09:10 response for static size: 325
+15:09:10 Request: path 和 query /static {'file': 'todo.js'}
+15:09:10 cookie ['']
+15:09:10 response for static size: 844
+15:09:10 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Accept': '*/*', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/todo', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'} {}
+15:09:10 response for static size: 5368
+15:09:10 ip ('127.0.0.1', 54615)
+15:09:10 request log:
+GET /api/todo/all HTTP/1.1
+Host: 0.0.0.0:2048
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36
+Content-Type: application/json
+Accept: */*
+DNT: 1
+Referer: http://0.0.0.0:2048/todo
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+
+
+15:09:10 Request: path 和 query /api/todo/all {}
+15:09:10 cookie ['']
+15:09:10 Request: headers 和 cookies {'Host': '0.0.0.0:2048', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36', 'Content-Type': 'application/json', 'Accept': '*/*', 'DNT': '1', 'Referer': 'http://0.0.0.0:2048/todo', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'} {}
+15:09:10 load [
+  {
+    "id": 0,
+    "task": "请阿钰和阿黄吃饭",
+    "completed": false,
+    "user_id": -1,
+    "created_time": 1521603062,
+    "updated_time": 1521603078
+  }
+]
+15:09:10 response log:
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+[
+  {
+    "id": 0,
+    "task": "请阿钰和阿黄吃饭",
+    "completed": false,
+    "user_id": -1,
+    "created_time": 1521603062,
+    "updated_time": 1521603078
+  }
+]
+15:09:11 ip ('127.0.0.1', 54618)
+15:09:11 ip ('127.0.0.1', 54619)
+15:09:11 ip ('127.0.0.1', 54620)
+15:10:05 request log:
+
+15:10:05 request log:
+
+15:10:05 request log:
+
