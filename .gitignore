@@ -5,3 +5,11 @@ __pycache__/
 todo.conf
 
 deploy.sh
+
+data/Todo.txt
+
+data/Session.txt
+
+data/Todo.txt
+
+log.txt
