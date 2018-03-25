@@ -16,7 +16,7 @@ class User(Model):
         self.password = form.get('password', '')
 
     @staticmethod
-    def salted_password(password, salt='$!@><?>HUI&DWQa`'):
+    def salted_password(password, salt='Ayu>xixi&D()JKa`'):
         """$!@><?>HUI&DWQa`"""
         salted = password + salt
         hash = hashlib.sha256(salted.encode('ascii')).hexdigest()
